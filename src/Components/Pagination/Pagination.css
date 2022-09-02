@@ -1,0 +1,37 @@
+.Pagination {
+  list-style: none;
+  display: flex;
+}
+
+.Pagination__item {
+  border: 1px solid #000;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Pagination__item:hover {
+  opacity: 0.6;
+}
+
+.active {
+  background-color: rgb(184, 184, 184);
+}
+
+@media (max-width: 700px) {
+  .Pagination {
+    display: grid;
+    grid-template: repeat(3, 37px) / repeat(10, 37px);
+  }
+}
+
+@media (max-width: 445px) {
+  .Pagination {
+    display: grid;
+    grid-template: repeat(5, 37px) / repeat(6, 37px);
+  }
+}

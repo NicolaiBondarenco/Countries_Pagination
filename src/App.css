@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  font-family: 'DynaPuff', cursive;
+}
+
+.App__button-prev {
+  margin-right: 15px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: 'DynaPuff', cursive;
+}
+
+.App__button-next {
+  cursor: pointer;
+  background-color: #fff;
+  background-color: #fff;
+  border: 2px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: 'DynaPuff', cursive;
+}
